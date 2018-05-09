@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"></meta>
+<title>Menu Page</title>
+</head>
+<body>
+<h1>Please select the Menu!!!!!</h1>
+<form action="/AddDetails">
+ <!-- <input type="checkbox"  value="menu1"><b>Indian Thali </b></input><br></br>
+ Description:<p>Indians are known for elaborate meals and the South Indian thali is the best example of it. There is no 'rule' to this thali and 
+ it contains liberal helpings of rice, sambhar, kootu ( vegetables curry cooked with lentils), kosumri, paapad, curd and for desert, there's akkaravadisal 
+ ( a sweet made with rice and lentils) to complete the meal.</p>
+  <input type="checkbox" value="menu2"><b>Chineese!!</b> </input><br></br>
+ Description: <p>Lunch menu with fried rice, noodles, chilli paneer gravy,
+   veg manchurian gravy and spring roll. While browsing through instagram feed, 
+   The menu was similar – fried rice, noodles,
+   two manchurian gravies and fried momos</p> -->
+   <input type="checkbox"></input>
+		<h2>Menu Name</h2><input  th:value="${model.menuName}"></input><br></br> 
+			
+			Description:
+		<p>
+			<input th:value="${model.description}"></input>
+		</p>
+		<h1>Cost is:</h1>
+		<input th:value="${model.cost}"></input>
+		<h1>Enter the number of Tables:</h1>
+		<br></br> <input type="text" name="tableCount"></input> <input
+			type="submit" value="Proceed"></input>
+
+	</form>
+</body>
+</html>

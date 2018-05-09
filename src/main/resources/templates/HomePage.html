@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"></meta>
+<title>Online Table Reservation System </title>
+</head>
+<body>
+<h1>Welcome to Online Booking system</h1>
+<form action="/MenuPage">
+<b>Select the Restaurants:</b>
+<!-- <select>
+  <option value="Absolute barbecue">Barbecue</option>
+  <option value="Punjabi Dhaba">PunjabiDhaba</option>
+  <option value="Paradise">Paradise</option>
+  <option value="Madhuban">MadhubanKhana</option>
+</select> -->
+
+
+<select name="RestaurantName">
+<tr th:each="message : ${model}">
+        <td th:text="${message.name}"> </td>
+      <option th:text="${message.name}"></option> 
+    </tr>
+    </select>
+    
+    <input type="submit" value="Submit"></input>
+</form>
+ 
+</body>
+</html>

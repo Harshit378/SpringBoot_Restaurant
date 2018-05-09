@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1"></meta>
+<title>Details</title>
+</head>
+<body>
+<h1><b>Added Details are:</b></h1>
+<form action="/simpleemail">
+<h2>Selected Restaurant:</h2>
+<input type ="text" th:value="${modelRes.name}"></input>
+<br></br>
+<h2>Selected Menu is</h2>
+<input type="text" th:value="${modelMenu.menuName}"></input>
+Tables Count:
+ <input type="text" th:value="${model}" ></input>
+  <br></br>
+ Enter the valid EmailId: <input type="text" name="email" ></input><br></br>
+  <input type="submit" value="Proceed to Payment"></input>
+</form>
+</body>
+</html>
