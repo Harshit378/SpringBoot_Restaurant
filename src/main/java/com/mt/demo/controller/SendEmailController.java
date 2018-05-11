@@ -1,4 +1,4 @@
-package com.mindtree.demo.controller;
+package com.mt.demo.controller;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;

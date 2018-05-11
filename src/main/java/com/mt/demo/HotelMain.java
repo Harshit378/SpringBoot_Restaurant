@@ -1,4 +1,4 @@
-package com.mindtree.demo;
+package com.mt.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

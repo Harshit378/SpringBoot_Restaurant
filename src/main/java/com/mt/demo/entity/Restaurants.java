@@ -1,4 +1,4 @@
-package com.mindtree.demo.entity;
+package com.mt.demo.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;

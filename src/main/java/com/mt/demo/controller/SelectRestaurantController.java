@@ -1,4 +1,4 @@
-package com.mindtree.demo.controller;
+package com.mt.demo.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.mindtree.demo.entity.Menu;
-import com.mindtree.demo.entity.Restaurants;
-import com.mindtree.demo.service.GetDetails;
+import com.mt.demo.entity.Menu;
+import com.mt.demo.entity.Restaurants;
+import com.mt.demo.service.GetDetails;
 
 /**
  * @author M1037580

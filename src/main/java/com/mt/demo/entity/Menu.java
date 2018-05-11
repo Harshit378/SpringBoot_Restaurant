@@ -1,4 +1,4 @@
-package com.mindtree.demo.entity;
+package com.mt.demo.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
